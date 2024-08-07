@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Subversion\\RempteControl2024\\DFM_Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\connection\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\connection\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\dataaccess\\db_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\dataaccess\\db_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\connection\\serversideconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\connection\\serversideconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DB_Connection.cs",
+              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DataAccess\\DB_Connection.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\DataAccess\\DB_Connection.cs",
+              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DataAccess\\DB_Connection.cs",
+              "RelativeToolTip": "DFM_Server\\DataAccess\\DB_Connection.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:45:04.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Clienthandler.cs",
+              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\Clienthandler.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\Connection\\Clienthandler.cs",
+              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\Clienthandler.cs*",
+              "RelativeToolTip": "DFM_Server\\Connection\\Clienthandler.cs*",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwEsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:42:53.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerSideConnection.cs",
+              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\ServerSideConnection.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\Connection\\ServerSideConnection.cs",
+              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\ServerSideConnection.cs",
+              "RelativeToolTip": "DFM_Server\\Connection\\ServerSideConnection.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwF8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:33:28.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainUI.cs",
+              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\MainUI.cs",
+              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs",
+              "RelativeToolTip": "DFM_Server\\MainUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:42:44.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainUI.cs [Design]",
+              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\MainUI.cs",
+              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs [Design]",
+              "RelativeToolTip": "DFM_Server\\MainUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:48:18.529Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
