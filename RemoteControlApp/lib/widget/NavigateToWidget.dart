@@ -1,3 +1,4 @@
+import 'package:dfm_remote_control/views/AboutView.dart';
 import 'package:dfm_remote_control/views/loginView.dart';
 import 'package:dfm_remote_control/views/settingsView.dart';
 import 'package:dfm_remote_control/views/mainView.dart';
@@ -9,6 +10,8 @@ Widget NavigateToWidget(changePage item) {
   switch (item) {
     case changePage.loginView:
       return const LoginPage();
+    case changePage.aboutView:
+      return const AboutView();
     case changePage.settingsView:
       return const SettingsView();
 

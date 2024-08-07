@@ -1,4 +1,6 @@
 import 'dart:io';
+import 'package:dfm_remote_control/Bloc/navigation_drawer_across_pages_bloc.dart';
+import 'package:dfm_remote_control/views/settingsView.dart';
 import 'package:flutter/material.dart';
 
 class MachineView extends StatefulWidget {
@@ -20,17 +22,17 @@ class MachineViewState extends State<MachineView> {
     try {
       final InternetAddress serverAddress = InternetAddress('199.203.44.132');
       const port = 1999;
-      _socket = await Socket.connect(serverAddress, port);
+      //_socket = await Socket.connect(serverAddress, port);
 
       // Listen for data from the server
-      _socket!.listen((List<int> data) {
+      //_socket!.listen((List<int> data) {
         // Convert byte data to string and print
-        String message = String.fromCharCodes(data);
-        print('Server: $message');
+        //String message = String.fromCharCodes(data);
+        //print('Server: $message');
         setState(() {
           // Update UI or state with the message if needed
         });
-      });
+      //});
 
       // Optionally send data back to the server
       // _socket!.write('Hello from client!');
@@ -77,6 +79,10 @@ class MachineViewState extends State<MachineView> {
                 ]),
               ],
             ),
+            TextButton(onPressed: (){
+              Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const SettingsView()));
+            }, child: child)
             // const SizedBox(height: 20), // Add some space between the table and the image
             // Image.asset(
             //   'assets/8030.png',

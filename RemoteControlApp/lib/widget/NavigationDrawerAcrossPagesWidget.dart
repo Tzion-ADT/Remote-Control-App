@@ -21,6 +21,11 @@ class _NavigationDrawerAcrossPagesWidgetState extends State<NavigationDrawerAcro
         Icons.home,
     ),
     NavigationItem(
+      changePage.aboutView,
+      "About",
+      Icons.account_balance_sharp,
+    ),
+    NavigationItem(
         changePage.settingsView,
         "Settings",
         Icons.military_tech,

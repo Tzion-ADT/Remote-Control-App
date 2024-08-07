@@ -5,7 +5,7 @@ enum changePage {
   settingsView,
   machineView,
   logOut,
-  about
+  aboutView
 }
 
 class NavigationItem{
