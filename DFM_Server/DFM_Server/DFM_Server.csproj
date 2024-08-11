@@ -9,7 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NLog" Version="5.3.2" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Include NLog.config in the project and copy it to the output directory -->
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ADTLink">
+      <HintPath>lib\ADTLink.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

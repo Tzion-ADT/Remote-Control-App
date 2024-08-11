@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SQLite;
+﻿using System.Data.SQLite;
+using LogInfo;
 
 
 namespace DFM_Server.DataAccess
@@ -24,7 +20,7 @@ namespace DFM_Server.DataAccess
             }
             catch (Exception ex)
             {
-                //Logger("Failed to create the database connection to: " + dbUrl + db, ex);
+                LoggerInfo.GetLogger().Error("Failed to create the database connection to: " + dbUrl + db, ex);
             }
         }
 
@@ -67,6 +63,7 @@ namespace DFM_Server.DataAccess
 
         ~DBConnection()
         {
+            LoggerInfo.GetLogger().Info(" ~DBConnection() called");
             Dispose(false);
         }
     }

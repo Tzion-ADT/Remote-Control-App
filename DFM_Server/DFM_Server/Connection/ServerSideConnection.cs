@@ -1,10 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Sockets;
+﻿using System.Net.Sockets;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+using NLog;
+using LogInfo;
+
+////////////////////////////////////////////////////////////////////////////////
+//
+//  COPYRIGHT (c) 2024 ADT, INC.
+//
+//  This software is the property of ADT Industries, Inc.
+//  Any reproduction or distribution to a third party is
+//  strictly forbidden unless written permission is given by an
+//  authorized agent of ADT.
+//
+//  DESCRIPTION
+//		Definition for Server side connection : listening and waiting for client sides to connect
+//      This operation is in the background so the UI available for the user
+//
+//
+//	Date		Name								Description
+//	----------------------------------------------------------------------------
+// 2024         Tzion
+//
+//=============================================================================
+
 
 namespace DFM_Server.Connection
 {
@@ -41,8 +59,8 @@ namespace DFM_Server.Connection
                 {
                     try
                     {
-                        TcpClient clientSide = await serverSide.AcceptTcpClientAsync();
-                        string clientAddress = ((IPEndPoint)clientSide.Client.RemoteEndPoint).Address.ToString();
+                        Socket clientSide = await serverSide.AcceptSocketAsync();
+                        string clientAddress = ((IPEndPoint)clientSide.RemoteEndPoint).Address.ToString();
 
                         if (!Ips.Contains(clientAddress))
                         {
@@ -50,13 +68,16 @@ namespace DFM_Server.Connection
                             Console.WriteLine("Connected to " + clientAddress);
 
                             // In the following, the connection to the DB will establish
-                            Thread clientSideHandlerThread = new Thread(() => HandleClient(clientSide));
+                            Thread clientSideHandlerThread = new Thread(() =>
+                            {
+                                new ClientHandler(clientSide, this.Ips).Run();
+                            });
                             clientSideHandlerThread.Start();
 
                             List<string> clientDetailsList = new List<string>
                             {
                                 clientAddress,
-                                Dns.GetHostEntry(((IPEndPoint)clientSide.Client.RemoteEndPoint).Address).HostName
+                                Dns.GetHostEntry(((IPEndPoint)clientSide.RemoteEndPoint).Address).HostName
                             };
 
                             ProcessClientData(clientDetailsList); // This will help to use the data in every new connection
@@ -64,12 +85,13 @@ namespace DFM_Server.Connection
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine(ex.ToString());
+                        LoggerInfo.GetLogger().Error("ADTLink.AsynchronousClient.Send failed: " + ex.ToString());
                     }
                     finally
                     {
                         if (serverSide != null)
                         {
+                            //TO-DO : option to check Socked connection if it still running
                             // serverSide.Stop(); Uncomment if you need to stop the server
                         }
                     }
@@ -79,12 +101,6 @@ namespace DFM_Server.Connection
             {
                 Console.WriteLine(ex.ToString());
             }
-        }
-
-        private void HandleClient(TcpClient client)
-        {
-            // Handle client connection, communication, and disconnection here
-            // Implement your logic for interacting with the client
         }
 
         private void ProcessClientData(List<string> clientDetailsList)
