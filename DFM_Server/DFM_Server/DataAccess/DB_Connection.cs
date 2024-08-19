@@ -7,7 +7,7 @@ namespace DFM_Server.DataAccess
     // Definition for Singleton connection to DB for every client there is only one instance
     public class DBConnection : IDisposable
     {
-        private static SQLiteConnection ?connectionInstance ;
+        private static SQLiteConnection? connectionInstance;
         private static readonly object lockObject = new object();
         private bool disposed = false;
 

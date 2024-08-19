@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ej1bEpISww=",
+  "dgSpecHash": "RZ2fLOXKWa0=",
   "success": true,
-  "projectFilePath": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DFM_Server.csproj",
+  "projectFilePath": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DFM_Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

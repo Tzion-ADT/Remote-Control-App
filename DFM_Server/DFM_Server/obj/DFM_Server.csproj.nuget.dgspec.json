@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DFM_Server.csproj": {}
+    "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DFM_Server.csproj": {}
   },
   "projects": {
-    "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DFM_Server.csproj": {
+    "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DFM_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DFM_Server.csproj",
+        "projectUniqueName": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DFM_Server.csproj",
         "projectName": "DFM_Server",
-        "projectPath": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DFM_Server.csproj",
+        "projectPath": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DFM_Server.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\obj\\",
+        "outputPath": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

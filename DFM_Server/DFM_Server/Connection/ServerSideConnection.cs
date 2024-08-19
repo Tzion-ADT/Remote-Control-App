@@ -1,6 +1,5 @@
 ﻿using System.Net.Sockets;
 using System.Net;
-using NLog;
 using LogInfo;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -51,7 +50,17 @@ namespace DFM_Server.Connection
         {
             try
             {
-                serverSide = new TcpListener(IPAddress.Any, portNumber);
+                serverSide = new TcpListener(IPAddress.Any, portNumber);//for the server
+
+                /********************************************************************************/
+                /********************************************************************************/
+                /********************************************************************************/
+                //add another port numer for testing because the flutter client is on the same pc 
+                //ass the server.
+                /*********************************************************************************/
+                /********************************************************************************/
+                /********************************************************************************/
+
                 serverSide.Start();
                 Console.WriteLine("Port number is: " + portNumber);
 
@@ -64,7 +73,7 @@ namespace DFM_Server.Connection
 
                         if (!Ips.Contains(clientAddress))
                         {
-                            //LoggerInfo.GetLogger().Info("Connection established for " + clientAddress + ", on port " + portNumber);
+                            LoggerInfo.GetLogger().Info("Connection established for " + clientAddress + ", on port " + portNumber);
                             Console.WriteLine("Connected to " + clientAddress);
 
                             // In the following, the connection to the DB will establish
@@ -109,7 +118,7 @@ namespace DFM_Server.Connection
             {
                 this.clientIPLabel.Invoke((Action)(() =>
                 {
-                    this.clientIPLabel.Text += "IP: " + clientDetailsList[0] + ", PC Name: " + clientDetailsList[1]+"\n";
+                    this.clientIPLabel.Text += "IP: " + clientDetailsList[0] + ", PC Name: " + clientDetailsList[1] + "\n";
                     Ips.Add(clientDetailsList[0]);
                 }));
 

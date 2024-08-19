@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "I:\\Subversion\\RempteControl2024\\DFM_Server\\",
+  "WorkspaceRootPath": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\connection\\serversideconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remote-control-app\\dfm_server\\dfm_server\\dataaccess\\models\\statusvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\dataaccess\\models\\statusvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remote-control-app\\dfm_server\\dfm_server\\dataaccess\\db_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\dataaccess\\db_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remote-control-app\\dfm_server\\dfm_server\\connection\\serversideconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\connection\\serversideconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\connection\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remote-control-app\\dfm_server\\dfm_server\\connection\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\connection\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remote-control-app\\dfm_server\\dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|I:\\Subversion\\RempteControl2024\\DFM_Server\\dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|I:\\Subversion\\Remote-Control-App\\DFM_Server\\dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|i:\\subversion\\remptecontrol2024\\dfm_server\\dfm_server\\dataaccess\\db_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1067519A-35B6-4C20-86A9-668E632B2D04}|DFM_Server\\DFM_Server.csproj|solutionrelative:dfm_server\\dataaccess\\db_connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,38 +87,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServerSideConnection.cs",
-              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\ServerSideConnection.cs",
-              "RelativeDocumentMoniker": "DFM_Server\\Connection\\ServerSideConnection.cs",
-              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\ServerSideConnection.cs",
-              "RelativeToolTip": "DFM_Server\\Connection\\ServerSideConnection.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAawFUAAAAoAAAA",
+              "Title": "StatusVariables.cs",
+              "DocumentMoniker": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DataAccess\\Models\\StatusVariables.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\DataAccess\\Models\\StatusVariables.cs",
+              "ToolTip": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DataAccess\\Models\\StatusVariables.cs",
+              "RelativeToolTip": "DFM_Server\\DataAccess\\Models\\StatusVariables.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAIA7wDEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T13:33:28.777Z",
+              "WhenOpened": "2024-08-19T08:38:30.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Clienthandler.cs",
-              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\Clienthandler.cs",
-              "RelativeDocumentMoniker": "DFM_Server\\Connection\\Clienthandler.cs",
-              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\Connection\\Clienthandler.cs",
-              "RelativeToolTip": "DFM_Server\\Connection\\Clienthandler.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAuwDQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T13:42:53.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DB_Connection.cs",
-              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DataAccess\\DB_Connection.cs",
+              "DocumentMoniker": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DataAccess\\DB_Connection.cs",
               "RelativeDocumentMoniker": "DFM_Server\\DataAccess\\DB_Connection.cs",
-              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\DataAccess\\DB_Connection.cs",
+              "ToolTip": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\DataAccess\\DB_Connection.cs",
               "RelativeToolTip": "DFM_Server\\DataAccess\\DB_Connection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T13:45:04.754Z",
               "EditorCaption": ""
@@ -122,10 +113,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ServerSideConnection.cs",
+              "DocumentMoniker": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\Connection\\ServerSideConnection.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\Connection\\ServerSideConnection.cs",
+              "ToolTip": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\Connection\\ServerSideConnection.cs",
+              "RelativeToolTip": "DFM_Server\\Connection\\ServerSideConnection.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:33:28.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Clienthandler.cs",
+              "DocumentMoniker": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\Connection\\Clienthandler.cs",
+              "RelativeDocumentMoniker": "DFM_Server\\Connection\\Clienthandler.cs",
+              "ToolTip": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\Connection\\Clienthandler.cs",
+              "RelativeToolTip": "DFM_Server\\Connection\\Clienthandler.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:42:53.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainUI.cs",
-              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs",
+              "DocumentMoniker": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\MainUI.cs",
               "RelativeDocumentMoniker": "DFM_Server\\MainUI.cs",
-              "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs",
+              "ToolTip": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\MainUI.cs",
               "RelativeToolTip": "DFM_Server\\MainUI.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA8wBYAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,15 +151,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainUI.cs [Design]",
-              "DocumentMoniker": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs",
+              "DocumentMoniker": "I:\\Subversion\\Remote-Control-App\\DFM_Server\\DFM_Server\\MainUI.cs",
               "RelativeDocumentMoniker": "DFM_Server\\MainUI.cs",
               "ToolTip": "I:\\Subversion\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs [Design]",
-              "RelativeToolTip": "DFM_Server\\MainUI.cs [Design]",
+              "RelativeToolTip": "..\\..\\RempteControl2024\\DFM_Server\\DFM_Server\\MainUI.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T11:48:18.529Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-06T11:48:18.529Z"
             }
           ]
         }

@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DFM_Server
-build_property.ProjectDir = I:\Subversion\RempteControl2024\DFM_Server\DFM_Server\
+build_property.ProjectDir = I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
