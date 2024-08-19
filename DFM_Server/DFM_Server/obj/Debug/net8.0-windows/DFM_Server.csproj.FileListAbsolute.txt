@@ -72,3 +72,4 @@ I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\obj\Debug\net8.0-windows\
 I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\obj\Debug\net8.0-windows\DFM_Server.pdb
 I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\obj\Debug\net8.0-windows\DFM_Server.genruntimeconfig.cache
 I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\obj\Debug\net8.0-windows\ref\DFM_Server.dll
+I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
