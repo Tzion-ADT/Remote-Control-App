@@ -1,10 +1,27 @@
 ﻿using Newtonsoft.Json;
 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  COPYRIGHT (c) 2024 ADT, INC.
+//
+//  This software is the property of ADT Industries, Inc.
+//  Any reproduction or distribution to a third party is
+//  strictly forbidden unless written permission is given by an
+//  authorized agent of ADT.
+//
+//  DESCRIPTION
+//		Definition machine status object 
+//
+//	Date		Name								Description
+//	----------------------------------------------------------------------------
+// 2024         Tzion
+//
 
 namespace DFM_Server.DataAccess.Models
 {
     internal class StatusVariables
     {
+        private string UserStatus;
         private string Status;
         private string RecipeName;
         private int SawId;
@@ -12,13 +29,13 @@ namespace DFM_Server.DataAccess.Models
         private string LoginName;
         private int AirPressure;
         private int SpindleSpeed;
-        private int UPH_LastDay;
 
         //public StatusVariables(){}
-        public StatusVariables(string Status, string RecipeName, int SawId,
+        public StatusVariables(string UserStatus , string Status, string RecipeName, int SawId,
             string BladeName, string LoginName, int AirPressure,
-            int SpindleSpeed, int UPH_LastDay)
+            int SpindleSpeed)
         {
+            this.UserStatus = UserStatus;
             this.Status = Status;
             this.RecipeName = RecipeName;
             this.SawId = SawId;
@@ -26,8 +43,9 @@ namespace DFM_Server.DataAccess.Models
             this.LoginName = LoginName;
             this.AirPressure = AirPressure;
             this.SpindleSpeed = SpindleSpeed;
-            this.UPH_LastDay = UPH_LastDay;
         }
+
+        public string userStatus{ get { return UserStatus; } }
 
         public string status { get { return Status; } }
 
@@ -41,8 +59,6 @@ namespace DFM_Server.DataAccess.Models
 
         public int spindleSpeed { get { return SpindleSpeed; } }
 
-        public int _UPH_LastDay { get { return UPH_LastDay; } }
-
 
         public static string createJson(StatusVariables statusVariables)
         {
@@ -54,11 +70,17 @@ namespace DFM_Server.DataAccess.Models
             return JsonConvert.DeserializeObject<StatusVariables>(data);
         }
 
+        public string writeToDBSQL()
+        {
+            return "INSERT INTO MachineStatus (UserStatus , Status , RecipeName , SawId , BladeName , LoginName , AirPressure , SpindleSpeed)" +
+                " VALUES (@UserStatus , @Status , @RecipeName , @SawId , @BladeName , @LoginName , @AirPressure , @SpindleSpeed)";
+        }
+
         override
         public string ToString()
         {
-            return this.Status + "," + this.recipeName + "," + this.SawId + "," + this.BladeName + "," + LoginName + "," +
-                AirPressure + "," + "," + this.spindleSpeed + "," + this.SpindleSpeed + "," + this.UPH_LastDay + ".";
+            return this.UserStatus + this.Status + "," + this.recipeName + "," + this.SawId + "," + this.BladeName + "," + LoginName + "," +
+                AirPressure + "," + "," + this.spindleSpeed + "," + this.SpindleSpeed + ".";
         }
     }
 }

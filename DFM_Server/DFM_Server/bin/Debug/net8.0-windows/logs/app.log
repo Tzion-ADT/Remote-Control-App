@@ -1,2 +1,80 @@
 2024-08-08 15:18:46.1385 | INFO | ********************Logger Instance created********************
 2024-08-08 15:18:46.1785 | ERROR | Connection closed: 199.203.44.132
+2024-08-19 12:10:06.4814 | INFO | ********************Logger Instance created********************
+2024-08-19 12:10:06.5035 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:12:04.9739 | INFO | ********************Logger Instance created********************
+2024-08-19 12:12:04.9944 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:12:59.1507 | INFO | ********************Logger Instance created********************
+2024-08-19 12:12:59.1672 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:15:42.3624 | INFO | ********************Logger Instance created********************
+2024-08-19 12:15:42.3786 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:24:23.9778 | INFO | ********************Logger Instance created********************
+2024-08-19 12:24:23.9979 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:24:24.0222 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 12:25:59.2119 | INFO | ********************Logger Instance created********************
+2024-08-19 12:25:59.2119 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:25:59.2322 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 12:25:59.9560 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:26:21.5357 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 12:26:30.7982 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:30:46.9823 | INFO | ********************Logger Instance created********************
+2024-08-19 12:30:47.0013 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:30:51.7915 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:30:51.8503 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 12:31:00.0603 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:31:05.9343 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 12:32:21.6259 | INFO | ********************Logger Instance created********************
+2024-08-19 12:32:21.6419 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:32:54.6688 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 12:32:54.7211 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 12:33:02.0611 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 12:33:02.0622 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 14:16:58.1499 | INFO | ********************Logger Instance created********************
+2024-08-19 14:16:58.1713 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 14:18:41.2366 | INFO | ********************Logger Instance created********************
+2024-08-19 14:18:41.2567 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 14:24:20.8150 | INFO | ********************Logger Instance created********************
+2024-08-19 14:24:20.8374 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 14:24:21.2756 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 14:28:22.0467 | INFO | ********************Logger Instance created********************
+2024-08-19 14:28:22.0626 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 14:28:22.1336 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 14:30:23.3412 | INFO | ********************Logger Instance created********************
+2024-08-19 14:30:23.3580 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 14:30:23.4300 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 14:31:49.3413 | INFO | ********************Logger Instance created********************
+2024-08-19 14:31:49.3573 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 14:31:49.4320 | INFO | Message recieved from GUI: " + currentIP_string
+2024-08-19 17:37:12.0133 | INFO | ********************Logger Instance created********************
+2024-08-19 17:37:12.0384 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 18:19:20.6923 | INFO | ********************Logger Instance created********************
+2024-08-19 18:19:20.7130 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-19 18:20:35.0026 | INFO | ********************Logger Instance created********************
+2024-08-19 18:20:35.0234 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 10:41:53.5809 | INFO | ********************Logger Instance created********************
+2024-08-20 10:41:53.6375 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 10:42:04.0758 | INFO |  ~DBConnection() called
+2024-08-20 10:58:36.2010 | INFO | ********************Logger Instance created********************
+2024-08-20 10:58:36.2176 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 11:24:27.6247 | INFO | ********************Logger Instance created********************
+2024-08-20 11:24:27.6412 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 11:29:48.8623 | INFO | ********************Logger Instance created********************
+2024-08-20 11:29:48.8871 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 11:30:13.8282 | ERROR | ADTLink.AsynchronousClient.Send failed: 199.203.44.132
+2024-08-20 11:30:44.3808 | INFO | ********************Logger Instance created********************
+2024-08-20 11:30:44.3981 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 11:31:34.6498 | INFO | ********************Logger Instance created********************
+2024-08-20 11:31:34.6667 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 11:32:20.3457 | ERROR | sendToFlutter failed: System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer)
+   at DFM_Server.Connection.ClientHandler.sendToFlutter(String data) in I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\Connection\Clienthandler.cs:line 136
+2024-08-20 11:32:25.2774 | ERROR | ADTLink.AsynchronousClient.Send failed: 199.203.44.132
+2024-08-20 11:36:09.9502 | INFO | ********************Logger Instance created********************
+2024-08-20 11:36:09.9668 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 11:37:16.4111 | INFO |  ~DBConnection() called
+2024-08-20 11:41:22.1102 | INFO | ********************Logger Instance created********************
+2024-08-20 11:41:22.1260 | INFO | Connection established for 199.203.44.132, on port 1999
+2024-08-20 11:46:19.5887 | ERROR | sendToFlutter failed: System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer)
+   at DFM_Server.Connection.ClientHandler.sendToFlutter(String data) in I:\Subversion\Remote-Control-App\DFM_Server\DFM_Server\Connection\Clienthandler.cs:line 136
+2024-08-20 11:47:55.2074 | ERROR | ADTLink.AsynchronousClient.Send failed: 199.203.44.132

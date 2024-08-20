@@ -11,20 +11,20 @@ namespace DFM_Server.DataAccess
         private static readonly object lockObject = new object();
         private bool disposed = false;
 
-        private DBConnection(string dbUrl, string db)
+        private DBConnection(string dbUrl)
         {
             try
             {
-                connectionInstance = new SQLiteConnection(dbUrl + db);
+                connectionInstance = new SQLiteConnection(dbUrl);
                 connectionInstance.Open();
             }
             catch (Exception ex)
             {
-                LoggerInfo.GetLogger().Error("Failed to create the database connection to: " + dbUrl + db, ex);
+                LoggerInfo.GetLogger().Error("Failed to create the database connection to: " + dbUrl, ex);
             }
         }
 
-        public static SQLiteConnection GetInstance(string dbUrl, string db)
+        public static SQLiteConnection GetInstance(string dbUrl)
         {
             if (connectionInstance == null || connectionInstance.State == System.Data.ConnectionState.Closed)
             {
@@ -32,7 +32,7 @@ namespace DFM_Server.DataAccess
                 {
                     if (connectionInstance == null || connectionInstance.State == System.Data.ConnectionState.Closed)
                     {
-                        new DBConnection(dbUrl, db);
+                        new DBConnection(dbUrl);
                     }
                 }
             }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DFM_Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+993bf428e631e5960dbb88847b3b6870b02ff03f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+200951e5d30907d2405dc36d8100e596639dc101")]
 [assembly: System.Reflection.AssemblyProductAttribute("DFM_Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DFM_Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
